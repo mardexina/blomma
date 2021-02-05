@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blomma</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
 </head>
 <body>
         <header class="top">
-            <img class="logo" src="./logo.png" alt="Logo">
-           
-            <button class="button" type="button">Cart</button>
-            <button class="button" type="button">Zoom</button>
-            <button class="button" type="button">Menu</button>
+            <img id="logo" src="img/logo.png" alt="Logo">
+            <ul id="button-list">
+            <button class="top-button" type="button"><span class="fa fa-shopping-cart"></span></button>
+            <button class="top-button" type="button"><span class="fa fa-search"></span></button>
+            <button class="top-button" type="button"><span class="fa fa-bars"></span></button>
 
+            </ul>
             <nav class="navigation">
                 <a class="link" href="#">Home</a>
                 <a class="link" href="#">Pages</a>
@@ -24,30 +27,37 @@
             </nav>
             
         </header>
-        <main class="background">
+        <main class="main">
             <section class="left-bar columns">
+                <ul id="socials-list">
                 <div><a class="socials" href="#">facebook</a></div>
                 <div><a class="socials" href="#">twitter</a></div>
                 <div><a class="socials" href="#">tumblr</a></div>
                 <div><a class="socials" href="#">Pinterest</a></div>
+                </ul>
             </section>
 
             <section class="left-column columns">
-                <h2 class="section-title">Creative agency</h2>
-                <div class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, odit!</div>
-                <button type="button">Read more</button>
+                <section id="left-text">
+                <h1 class="section-title">Creative agency</h1>
+                <div class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quas at. Explicabo dolorum nam necessitatibus dolores commodi numquam.</div>
+                <div><button id="read-more" type="button">Read more</button></div>
+                </section>
+            </section>
+            <section class="right-bar columns">
+                <button class="right-button" type="button"><span class="fa fa-random">                                    RELATED</span></button>
+                <button class="right-button" type="button"><span class="fa fa-shopping-cart">   BUY NOW</span></button>
+
             </section>
             <section class="right-column columns">
-                <img src="./like.png" alt="like">
+                <img id="like" src="img/like.png" alt="like">
             </section>
 
 
 
-            <section class="right-bar columns">
-                <button class="tools" type="button">Related</button>
-                <button class="tools" type="button">Buy Now</button>
+            
 
-            </section>
+
         </main>
 
 </body>
