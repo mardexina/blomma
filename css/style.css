@@ -1,29 +1,51 @@
 
-body{
+:root{
     background-image: url( "../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-html, body, button{
-    margin:0;
+    height:100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    vertical-align:middle;
 }
 .top{
-    height:150px;;
-    margin:50px 30px 0px 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* background-color:green; */
+    align-items:center;
 }
 #logo{
-    width:180px;
+    height:40px;
+    /* background-color: blue; */
 }
-#button-list{   
-    float:right;
-    margin:-7px 20px 0 0;
+.right{
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+    /* background-color:red; */
+    flex-wrap: wrap;
+}
+.navigation{
+justify-items: flex-end;
+}
+.link{
+    margin-right: 40px;
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+}
+.link:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #000;
+    text-decoration-thickness: 3px;
+}
+#button-list{
     padding:0;
+    justify-items: flex-end;
 }
 .top-button{
     margin-right:20px;
-    padding:0;
     border:none;
     font-size: 25px;
     background-color:#fff;
@@ -36,36 +58,17 @@ html, body, button{
     color:#fff;
     transition: background-color 0.3s;
 }
-.navigation{
-    float: right;
-}
-.link{
-    font-weight: bold;
-    margin-right:40px;
-    text-decoration:none;
-    color:black;
-}
-.link:hover{
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: #000;
-    text-decoration-thickness: 3px;
-}
+
 /* End Of TOP 
 
     Start Of Bottom*/
 .bottom{
-    display: inline-block;
+    display: flex;
     width: 100%;
 }
 .left-bar{
     margin-left:30px;
     width: 20px;
-    float:left;
-}
-.columns{
-    float:left;
-    height: 100%;
 }
 #socials-list{
     margin-top:100px;
@@ -100,13 +103,9 @@ html, body, button{
     background-color: #fefefe;
     border-width: 1px;
 }
-.right-bar{
-    float:right;
-    width:10%;
-    }  
+
 .right-button {
     font-size: 12px;
-    float:right;
     width:120px;
     margin:1px 2px;
     font-weight:500;
@@ -126,11 +125,7 @@ html, body, button{
     color:#fff;
     transition: background-color 0.3s;
 }
-.right-column{
-    float:right;
-}
 #like{
-    float:right;
     height:370px;
     margin: 100px 100px 0px 0px;
 }
