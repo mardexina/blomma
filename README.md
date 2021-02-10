@@ -6,7 +6,6 @@ First project. Its main objective was to learn the basics of HTML, CSS such as:
 <p>Classes, IDs
 <hr>
 <p>Site published:
-<p>https://mardexina.github.io/blomma/.
-<hr>
+https://mardexina.github.io/blomma/.
 <p>Template:
 <p>https://github.com/mardexina/blomma/blob/master/blomma-graphic-designer-website-template.jpg
