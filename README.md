@@ -4,8 +4,6 @@ First project. Its main objective was to learn the basics of HTML, CSS such as:
 <p>Text decoration
 <p>Buttons, Links
 <p>Classes, IDs
-<hr> 
-<p>Man-hours 8
 <hr>
 <p>Site published:
 <p>https://mardexina.github.io/blomma/.
